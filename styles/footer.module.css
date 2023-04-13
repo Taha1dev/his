@@ -1,0 +1,25 @@
+@import url('./app.css');
+.footer {
+  font-family: PT Sans;
+  background-color: var(--bgfooterColor);
+}
+
+.footer-img {
+  width: 84px;
+  height: 81px;
+}
+
+.submit-red {
+  background-color: var(--2ndColor);
+  border: none;
+
+}
+
+.footer-p {
+  font-size: 16px;
+}
+
+.footer-line {
+  color: #ffffff;
+
+}

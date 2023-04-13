@@ -1,0 +1,59 @@
+
+@import url('./app.css');
+
+/* heading  */
+.Image {
+  margin-left: 50px;
+  width: 46px;
+  height: 46px;
+}
+
+.l-title {
+  font-size: 10px;
+}
+
+.btn {
+  width: 50px;
+  height: 41px;
+  border-radius: 30px;
+  text-align: center;
+
+}
+
+.lan {
+  width: 60px;
+  height: 14px;
+  font-size: 14px;
+  font-family: Sansation;
+  text-align: center;
+}
+
+.log {
+  background-color: var(--admainColor);
+}
+
+.lan {
+  text-decoration: none;
+  color: #333333;
+  opacity: 50%;
+  padding-top: 0px;
+}
+/* heading  */
+/* navbar  */
+.navbar {
+  background-color: var(--mainColor);
+  text-align: center;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: 'PT Serif';
+  letter-spacing: 3%;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--yellowColor);
+}

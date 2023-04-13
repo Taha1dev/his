@@ -1,0 +1,274 @@
+:root {
+  /* color_palet */
+  --mainColor: #0557AD;
+  --2ndColor: #ED221C;
+  --bgfooterColor: #282828;
+  --fontColor: #333333;
+  --yellowColor: #DEAA4E;
+  --admainColor: #263A71;
+  --adtxtColor: #7B8DB4;
+  --adminbgColor: #F2F7FF;
+  --text-color: #606060;
+}
+body {
+  font-family: PT PT Serif;
+}
+/* heading  */
+.logo-img {
+  margin-left: 40px;
+  width: 46px;
+  height: 46px;
+}
+
+.l-title {
+  font-size: 8px;
+}
+
+.btn {
+  width: 50px;
+  height: 41px;
+  border-radius: 30px;
+  text-align: center;
+
+}
+
+.lan {
+  width: 60px;
+  height: 14px;
+  font-size: 14px;
+  font-family: Sansation;
+  text-align: center;
+}
+
+.log {
+  background-color: var(--admainColor);
+}
+
+.lan {
+  text-decoration: none;
+  color: #333333;
+  opacity: 50%;
+  padding-top: 0px;
+}
+
+/* heading  */
+/* navbar  */
+.navbar {
+  background-color: var(--mainColor);
+  text-align: center;
+
+}
+
+.navbar .navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 28px;
+  font-family: 'PT Serif';
+  letter-spacing: 3%;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--yellowColor);
+}
+
+/* navbar  */
+
+/* Breadcrumb */
+.bread {
+
+  background-color: #eeeeee;
+  padding: 20px;
+
+}
+
+.bread-title {
+  font-family: PT Serif;
+  color: var(--admainColor);
+}
+
+.breadcrumb-link {
+  color: #606060;
+  text-decoration: none;
+}
+
+.active-item {
+  color: var(--admainColor);
+}
+
+/* Breadcrumb */
+/* p */
+.text-color {
+  color: var(--text-color);
+}
+
+/* p */
+
+
+/* fellter */
+.btn-yellw {
+  width: fit-content !important;
+  padding-left: 38px !important;
+  padding-right: 38px !important;
+  background-color: var(--yellowColor) !important;
+  color: #ffffff !important;
+}
+
+/* fellter */
+/* card doctor */
+.card-doc {
+  padding: 20px;
+  width: 375px !important;
+  height: 280px;
+  margin: auto;
+
+}
+
+.pro-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 73px;
+}
+
+.doc-details {
+  line-height: 1;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.doc-name {
+  color: var(--mainColor);
+  font-family: PT Serif;
+  font-weight: bold;
+  line-height: 0.2;
+}
+
+.doc-spe {
+  font-family: PT Serif;
+  font-size: 14px;
+  color: #606060;
+  font-weight: 700;
+  margin-bottom: 1px;
+}
+
+.doc-exp {
+  font-family: PT Serif;
+  font-size: 10px;
+  color: #aeaeae;
+  font-weight: 700;
+
+}
+
+.line-card {
+  color: #c6c6c6;
+  margin: 0px;
+}
+
+.btn-appointment {
+  width: fit-content !important;
+  color: #606060 !important;
+  background-color: none;
+  font-family: PT Serif;
+  border: solid 1px #e1e1e1 !important;
+  font-size: 10px;
+}
+
+.btn-profile {
+  width: fit-content !important;
+  color: #ffffff !important;
+  background-color: var(--mainColor) !important;
+  font-family: PT Serif;
+  font-size: 10px;
+}
+
+/* card doctor */
+
+/* button group */
+
+.button-group-active {
+  border-radius: 5px !important;
+  background-color: var(--mainColor) !important;
+  font-family: PT Serif;
+}
+
+.button-group {
+  border-radius: 5px !important;
+  background-color: #eeeeee !important;
+  font-family: PT Serif;
+  color: var(--mainColor) !important;
+  border-color: #eeeeee !important;
+
+}
+
+/* button group */
+
+/* make Appointment */
+.Appointment-back {
+  background-color: #D9D9D9;
+  height: 270px;
+  margin-top: 6rem !important;
+}
+
+.doc-pic {
+  width: 410px;
+  height: 460px;
+
+}
+
+.Appointment-cap {
+  color: var(--mainColor);
+  font-family: PT Serif;
+}
+
+.Appointment-btn {
+  width: fit-content !important;
+  background-color: var(--mainColor) !important;
+  color: #ffffff !important;
+  font-family: PT Serif;
+
+}
+
+/* make Appointment */
+/* footer */
+.foot {
+  text-align: center;
+  font-size: 18px;
+  background-color: var(--bgfooterColor);
+  color: #ffffff;
+  padding: 15px;
+  align-content: center;
+  margin-bottom: 0px;
+  font-weight: 200;
+}
+
+.foot-p {
+  margin-bottom: 0px;
+}
+
+/* footer */
+/* responsive */
+@media only screen and (min-width: 992px) {
+  .btn-bar {
+    margin-bottom: 250px !important;
+  }
+
+  .doc-pic {
+    position: absolute;
+    bottom: 1px;
+
+  }
+
+  .cap {
+    position: absolute;
+    top: 70px;
+    right: 1px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .Appointment-back {
+    height: fit-content;
+  }
+}
+
+/* responsive */
